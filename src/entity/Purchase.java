@@ -114,7 +114,7 @@ public class Purchase {
 
     @Override
     public String toString() {
-        return "Purchase{" + "id=" + id + ", product=" + product + ", customer=" + customer + ", date=" + date + ", quantity=" + quantity + '}';
+        return "Purchase{" + "id=" + id + ", product=" + product.getName() + ", customer=" + customer.getName() + ", date=" + date + ", quantity=" + quantity + '}';
     }
 
 }
